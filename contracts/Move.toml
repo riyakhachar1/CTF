@@ -1,0 +1,9 @@
+[package]
+name = "ctf"
+edition = "2024.beta" 
+
+[dependencies]
+usdc = { git = "https://github.com/circlefin/stablecoin-sui.git", subdir = "packages/usdc", rev = "master" }
+
+[addresses]
+ctf = "0x0"

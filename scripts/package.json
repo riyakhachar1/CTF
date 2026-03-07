@@ -1,0 +1,24 @@
+{
+  "name": "sui-ctf-scripts",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "init-keypair": "tsx src/init.ts",
+    "moving-window": "tsx src/moving_window.ts",
+    "merchant": "tsx src/merchant.ts",
+    "lootboxes": "tsx src/lootboxes.ts",
+    "staking": "tsx src/staking.ts",
+    "sabotage-arena": "tsx src/sabotage_arena.ts"
+  },
+  "dependencies": {
+    "@mysten/sui": "^2.3.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.2",
+    "tsx": "^4.7.1",
+    "typescript": "^5.5.4"
+  }
+}
